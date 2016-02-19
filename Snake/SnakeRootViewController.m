@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  SnakeRootViewController.m
 //  Snake
 //
 //  Created by fangdong on 15/12/22.
 //  Copyright © 2015年 east. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SnakeRootViewController.h"
 
-@interface ViewController ()
+@interface SnakeRootViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SnakeRootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

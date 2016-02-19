@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C135DBC1C770851006B4912 /* SnakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C135DBB1C770851006B4912 /* SnakeView.m */; };
+		0C135DBF1C77087E006B4912 /* CellPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C135DBE1C77087E006B4912 /* CellPoint.m */; };
 		C512668C1C285A0B00D4119F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C512668B1C285A0B00D4119F /* main.m */; };
 		C512668F1C285A0B00D4119F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C512668E1C285A0B00D4119F /* AppDelegate.m */; };
-		C51266921C285A0B00D4119F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51266911C285A0B00D4119F /* ViewController.m */; };
+		C51266921C285A0B00D4119F /* SnakeRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51266911C285A0B00D4119F /* SnakeRootViewController.m */; };
 		C51266951C285A0C00D4119F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51266931C285A0C00D4119F /* Main.storyboard */; };
 		C51266971C285A0C00D4119F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51266961C285A0C00D4119F /* Assets.xcassets */; };
 		C512669A1C285A0C00D4119F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51266981C285A0C00D4119F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C135DBA1C770851006B4912 /* SnakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakeView.h; sourceTree = "<group>"; };
+		0C135DBB1C770851006B4912 /* SnakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnakeView.m; sourceTree = "<group>"; };
+		0C135DBD1C77087E006B4912 /* CellPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellPoint.h; sourceTree = "<group>"; };
+		0C135DBE1C77087E006B4912 /* CellPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellPoint.m; sourceTree = "<group>"; };
 		C51266871C285A0B00D4119F /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C512668B1C285A0B00D4119F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C512668D1C285A0B00D4119F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C512668E1C285A0B00D4119F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C51266901C285A0B00D4119F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C51266911C285A0B00D4119F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C51266901C285A0B00D4119F /* SnakeRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnakeRootViewController.h; sourceTree = "<group>"; };
+		C51266911C285A0B00D4119F /* SnakeRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnakeRootViewController.m; sourceTree = "<group>"; };
 		C51266941C285A0C00D4119F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C51266961C285A0C00D4119F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C51266991C285A0C00D4119F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,8 +66,12 @@
 			children = (
 				C512668D1C285A0B00D4119F /* AppDelegate.h */,
 				C512668E1C285A0B00D4119F /* AppDelegate.m */,
-				C51266901C285A0B00D4119F /* ViewController.h */,
-				C51266911C285A0B00D4119F /* ViewController.m */,
+				0C135DBD1C77087E006B4912 /* CellPoint.h */,
+				0C135DBE1C77087E006B4912 /* CellPoint.m */,
+				0C135DBA1C770851006B4912 /* SnakeView.h */,
+				0C135DBB1C770851006B4912 /* SnakeView.m */,
+				C51266901C285A0B00D4119F /* SnakeRootViewController.h */,
+				C51266911C285A0B00D4119F /* SnakeRootViewController.m */,
 				C51266931C285A0C00D4119F /* Main.storyboard */,
 				C51266961C285A0C00D4119F /* Assets.xcassets */,
 				C51266981C285A0C00D4119F /* LaunchScreen.storyboard */,
@@ -110,7 +120,7 @@
 				TargetAttributes = {
 					C51266861C285A0B00D4119F = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = QPX7MWNWGT;
+						DevelopmentTeam = 26KZ39KDXT;
 					};
 				};
 			};
@@ -150,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C51266921C285A0B00D4119F /* ViewController.m in Sources */,
+				C51266921C285A0B00D4119F /* SnakeRootViewController.m in Sources */,
 				C512668F1C285A0B00D4119F /* AppDelegate.m in Sources */,
 				C512668C1C285A0B00D4119F /* main.m in Sources */,
+				0C135DBF1C77087E006B4912 /* CellPoint.m in Sources */,
+				0C135DBC1C770851006B4912 /* SnakeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +276,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Snake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.east.test.Snake;
+				PRODUCT_BUNDLE_IDENTIFIER = com.east.Snake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -275,9 +288,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Snake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.east.test.Snake;
+				PRODUCT_BUNDLE_IDENTIFIER = com.east.Snake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -301,6 +315,7 @@
 				C51266A01C285A0C00D4119F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
