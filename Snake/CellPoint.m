@@ -34,7 +34,7 @@
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"{%d,%d}",self.x,self.y];
+    return [NSString stringWithFormat:@"{%ld,%ld}",(long)self.x,(long)self.y];
 }
 
 @end
