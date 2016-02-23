@@ -72,7 +72,7 @@
             break;
     }
     
-    if (head.x < 0 || head.x >= _cellColumn || head.y < 0 || head.y >= _cellRow) {
+    if (head.x < 0 || head.x >= _cellColumn || head.y < 0 || head.y >= _cellRow || [snakeData containsObject:head]) {
         [self gameOver];
     } else if ([head isEqual:foodPos]) { // 吃到食物
         [snakeData addObject:head];
